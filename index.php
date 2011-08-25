@@ -50,6 +50,8 @@ $imageList = json_encode($images);
 		menu = $("#menu ul"),
 		container = $("#container");
 		
+	console.log(imageList);	
+	
 	// get the image names and build imgs
 	// create the image name without the extension or underscores
 	for (imageName in images) {
@@ -71,7 +73,7 @@ $imageList = json_encode($images);
 	// now that it's sorted, display the images
 	for (var i = 0; i < arr.length; i++) {
 		var className = $('#container img').attr('class');
-		console.log(className);
+		//console.log(className);
 		container.append(arr[i].img);
 	}
 	
