@@ -10,6 +10,7 @@
 *	- group images according to layout (append _1, _2)
 *	- error handling (what errors?)
 */
+
 $imagesDir = '';
 $images = glob($imagesDir . '*.{jpg,jpeg,png}', GLOB_BRACE);
 $imageList = json_encode($images);
