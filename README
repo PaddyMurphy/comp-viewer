@@ -1,0 +1,10 @@
+v.01 Auto preview comp images:
+
+*	Drop your comp images in the comp directory to be displayed for preview
+*	image name format: use underscores to separate words (Homepage_Rollover_1.jpg)
+*	images need to be the same size
+*
+*	todo: 
+*	- sorting?
+*	- group images according to layout (append _1, _2)
+*	- error handling (what errors?)
