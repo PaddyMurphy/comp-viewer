@@ -50,7 +50,7 @@ $imageList = json_encode($images);
 		menu = $("#menu ul"),
 		container = $("#container");
 		
-	console.log(imageList);	
+	// console.log(imageList);	
 	
 	// get the image names and build imgs
 	// create the image name without the extension or underscores
